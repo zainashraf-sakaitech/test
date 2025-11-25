@@ -45,7 +45,7 @@ export default function App() {
                 !value
                   ? "First name is required"
                   : value.length < 3
-                  ? "First name must be at least 3 characters"
+                  ? "First name do must be at least 3 characters"
                   : undefined,
               onChangeAsyncDebounceMs: 500,
               onChangeAsync: async ({ value }) => {
